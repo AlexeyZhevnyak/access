@@ -23,7 +23,7 @@
 	}
 	 async function open_vlaanderen() {
           
-		win = window.open("https://accounts.dev.epam.com:8443/auth/realms/plusx/protocol/openid-connect/auth?client_id=test_client_1&redirect_uri=http%3A%2F%2Faccounts.dev.epam.com%3A8180%2Fcallback_oidc.html&response_type=code&scope=openid%20email%20profile%20offline_access", "transact");
+		win = window.open("https://access.integration.epm-iga.projects.epam.com/auth/realms/plusx/protocol/openid-connect/auth?client_id=test_client_1&redirect_uri=http%3A%2F%2Faccounts.dev.epam.com%3A8180%2Fcallback_oidc.html&response_type=code&scope=openid%20email%20profile%20offline_access", "transact");
 	        await new Promise((resolve) => setTimeout(resolve, 4000));
 		alert("access.epam.com is establish. you can execute javascript now :)");
         }
